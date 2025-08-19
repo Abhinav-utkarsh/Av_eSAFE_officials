@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Av_eSAFE Pvt. Ltd.</title>
+    <meta name="description" content="Get in touch with Av_eSAFE Pvt. Ltd. to discuss your project or learn more about our IT services.">
+    <meta name="keywords" content="contact us, get in touch, IT support, Av_eSAFE">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Page Loader -->
+    <div class="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo"><img src="assets/images/logo.png" alt="Av_eSAFE Logo" class="logo-img"></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="slider">
+                            <i class="fas fa-sun"></i>
+                            <i class="fas fa-moon"></i>
+                        </div>
+                    </label>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section page-section">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-form animate-on-scroll">
+                        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                            <!-- Replace with your Access Key -->
+                            <input type="hidden" name="access_key" value="b47e9ccd-f83c-403b-96ad-63097d6ff4bb">
+                            <input type="hidden" name="subject" value="New Contact Form Submission from Av_eSAFE Website">
+                            <input type="hidden" name="from_name" value="Av_eSAFE Contact Form">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                            <div id="form-result"></div>
+                        </form>
+                    </div>
+                    <div class="contact-info animate-on-scroll">
+                        <h3>Contact Information</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Av_eSAFE Pvt. Ltd, Electronic City Phase I, Bangalore, KA-560100</p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:avesafe.solutions@gmail.com">avesafe.solutions@gmail.com</a></p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:+919931805808">+91 9931805808</a></p>
+                        <div class="map-container">
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15558.94552483105!2d77.6565338479614!3d12.86104174368033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c999bb49337%3A0x6da886d37a5836f!2sElectronic%20City%20Phase%20I%2C%20Electronic%20City%2C%20Bengaluru%2C%20Karnataka%20560100%2C%20India!5e0!3m2!1sen!2sus!4v1678886655555!5m2!1sen!2sus" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Footer CTA -->
+        <div class="footer-cta">
+            <div class="container">
+                <h2>Ready to Start a Project?</h2>
+                <p>Let's build something amazing together. Get in touch with us to discuss your ideas.</p>
+                <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+            </div>
+        </div>
+
+        <!-- Main Footer -->
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-grid">
+                    <!-- Column 1: About -->
+                    <div class="footer-column">
+                        <h4>Av_eSAFE</h4>
+                        <p>Your partner in digital transformation, turning concepts into clicks with innovative solutions.</p>
+                        <div class="footer-social">
+                            <a href="https://github.com/Abhinav-utkarsh" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/abhinav-utkarsh-450614177" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.instagram.com/abhinav_utkarsh_mishra?igsh=c3JtaHYycDI3emdz&amp;utm_source=qr" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Column 2: Explore -->
+                    <div class="footer-column footer-links">
+                        <h4>Explore</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="founder.html">Our Founder</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 3: Contact -->
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <p><i class="fas fa-map-marker-alt"></i>Electronic City Phase I, Bangalore, KA-560100</p>
+                        <p><i class="fas fa-envelope"></i><a href="mailto:avesafe.solutions@gmail.com">avesafe.solutions@gmail.com</a></p>
+                        <p><i class="fas fa-phone"></i><a href="tel:+919931805808">+91 9931805808</a></p>
+                    </div>
+
+                    <!-- Column 4: Newsletter -->
+                    <div class="footer-column">
+                        <h4>Stay Updated</h4>
+                        <p>Subscribe to our newsletter for the latest news and updates.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your Email" required>
+                            <button type="submit" aria-label="Subscribe"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 Av_eSAFE Pvt. Ltd. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
