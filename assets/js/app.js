@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
             particlesJS('particles-js', {
                 "particles": {
                     "number": {
-                        "value": 80,
+                        "value": 45,
                         "density": {
                             "enable": true,
                             "value_area": 800
@@ -119,4 +119,5 @@ document.addEventListener('DOMContentLoaded', function () {
     // Initialize all functions
     setActiveLink();
     initParticles();
+
 });
